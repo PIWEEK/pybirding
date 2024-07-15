@@ -4,7 +4,7 @@ import numpy as np
 
 st.title('Test with my data')
 
-DATA_FILE = '../data/mydata/MyEBirdData.csv'
+DATA_FILE = 'data/mydata/MyEBirdData.csv'
 
 @st.cache_data
 def load_data():
